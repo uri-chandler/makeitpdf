@@ -2,6 +2,7 @@
 
 A close-to-code, modular - and visual - documentation helper.
 
+
 - [Motivation](#motivation)
 - [Install](#install)
 - [Usage](#usage)
