@@ -39,7 +39,7 @@ npm i -g makeitpdf
 ## Usage
 
 ```shell
-makeitpdf path/to/design-file.md
+makeitpdf path/to/Solution.md
 ```
 
 
