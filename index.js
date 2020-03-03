@@ -44,14 +44,13 @@ async function start() {
     md.use(markdownItCheckbox);
     md.use(markdownItNamedHeaders, { slugify });
     md.use(markdownItTOCDoneRight);
-    md.use(markdownItPlantUML);
+    md.use(markdownItPlantUML, {server: options.server || 'http://www.plantuml.com/plantuml'});
     log.done(' -> ok\n');
 
     log.info('Rendering content');
     content = md.render(content);
     content = renderTemplate(content, sourcePath);
     log.done(' -> ok\n');
-
     await saveAsPDF(content, sourcePath);
 
     console.log();
