@@ -81,6 +81,7 @@ body.showEditorSelection li.code-line:hover:before {
 }
 
 img {
+	border: 1px dashed grey;
 	max-width: 100%;
 	max-height: 100%;
 }
