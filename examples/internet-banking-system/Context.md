@@ -1,6 +1,6 @@
 <div style="page-break-after:always"></div>
 
-## System Overview
+## Context View
 
 Our online banking system should allow our users to:
 - View their account information online
@@ -13,7 +13,6 @@ Our online banking system should allow our users to:
     skinparam Monochrome true
     skinparam defaultFontColor Grey
     skinparam defaultFontName Noteworthy
-    scale 1.2
 
     Title \nOnline Banking System\n
 
