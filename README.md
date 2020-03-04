@@ -8,8 +8,8 @@ A close-to-code, modular - and visual - documentation helper.
 - [Usage](#usage)
 - [Short Example](#short-example)
 - [Features](#features)
-  - [Nested **`Markdown`** files](#nested-markdown-files)
-  - [**`PlantUML`** Diagrams](#plantuml-diagrams)
+  - [Nested Markdown files](#nested-markdown-files)
+  - [PlantUML Diagrams](#plantuml-diagrams)
   - [Auto-generated Table-Of-Contents](#auto-generated-table-of-contents)
 - [Tips & Tricks](#tips--tricks)
   - [Line breaks](#line-breaks)
@@ -105,7 +105,7 @@ makeitpdf --source Functional_Spec.md
 <br />
 
 ---
-### Nested **`Markdown`** files
+### Nested Markdown files
 
 You can include **`Markdown`** in other **`Markdown`** files using the following syntax:  
 
@@ -124,7 +124,7 @@ You can include **`Markdown`** in other **`Markdown`** files using the following
 
 <br />
 
-### **`PlantUML`** Diagrams
+### PlantUML Diagrams
 
 Add **`PlantUML`** diagrams to your document with the following syntax:    
 
