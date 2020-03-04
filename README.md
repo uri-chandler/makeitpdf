@@ -192,6 +192,7 @@ As an alternative, there's this awesome Chrome / Firefox extension you can use:
   _Thanks [@willbooster](https://github.com/WillBooster) for this really great extension!_
 
 <br />
+
 > _To see this in action after you installed the extension, just browser through the Markdown files in the examples folder here_
 
 
