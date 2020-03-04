@@ -14,6 +14,7 @@ A close-to-code, modular - and visual - documentation helper.
 - [Tips & Tricks](#tips--tricks)
   - [Line breaks](#line-breaks)
   - [GitHub Integration](#github-integration)
+  - [VSCode](#vscode)
 
 
 
@@ -185,11 +186,23 @@ Luckily, **Markdown** supports HTML, so I recommend adding this at the top of ea
 ### GitHub Integration
 
 At the moment, GitHub doesn't support rendering of **PlantUML** diagrams within a **Markdown** file.  
-
 As an alternative, there's this awesome Chrome / Firefox extension you can use:  
 
-- [PlantUML Visualizer](https://github.com/WillBooster/plantuml-visualizer)
+- [PlantUML Visualizer](https://github.com/WillBooster/plantuml-visualizer)  
   _Thanks [@willbooster](https://github.com/WillBooster) for this really great extension!_
 
-
+<br />
 > _To see this in action after you installed the extension, just browser through the Markdown files in the examples folder here_
+
+
+### VSCode
+
+I really like seeing my documentation fully rendered when I'm working in VSCode.  
+To increase your productivity, I highly recommend the following extensions:  
+
+- [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)  
+  This extension integrates well with the built-in **Markdown** preview sidebar that ships by default with VSCode.  
+  When your file includes **PlantUML** diagrams, they will render nicely in the preview sidebar
+
+- [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)  
+  Lets me view the final PDF file within VSCode, saves me the time to switch between a PDF viewer and VSCode.
