@@ -11,7 +11,7 @@
   },
   "keywords": ["markdown", "plantuml", "documentation", "pdf", "diagram", "flowchart", "docs"],
   "author": "Uri Chandler",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "highlight.js": "^9.18.0",
