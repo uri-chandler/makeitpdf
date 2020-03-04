@@ -11,6 +11,9 @@ A close-to-code, modular - and visual - documentation helper.
   - [Nested **`Markdown`** files](#nested-markdown-files)
   - [**`PlantUML`** Diagrams](#plantuml-diagrams)
   - [Auto-generated Table-Of-Contents](#auto-generated-table-of-contents)
+- [Tips & Tricks](#tips--tricks)
+  - [Line breaks](#line-breaks)
+  - [GitHub Integration](#github-integration)
 
 
 
@@ -39,7 +42,7 @@ npm i -g makeitpdf
 ## Usage
 
 ```shell
-makeitpdf path/to/Solution.md
+makeitpdf --source path/to/Solution.md
 ```
 
 
@@ -79,14 +82,14 @@ It does really cool stuff!
 
 You then render everything together using this:
 ```shell
-makeitpdf Functional_Spec.md
+makeitpdf --source Functional_Spec.md
 ```
 
 * _Typically, this will be a git-hook on every `push` or something like that, uploading the resulting PDF file to your documentation system etc ..._
   
 * _A developer working on any part of the project can easily update the documentation of the relevant component or module, hassle free_
 
-* _Please see the **`/example`** folder for a full example of how modular your documentation can be (coming soon)_
+* _Please see the **`/examples`** folder for a full example of how modular your documentation can be_
 
 
 
@@ -94,7 +97,7 @@ makeitpdf Functional_Spec.md
 ## Features
 
 - **`Markdown`** files can include other **`Markdown`** files
-- Supports **`PlantUML`** syntax for diagrams
+- **`PlantUML`** syntax for diagrams
 - Auto-generated **Table Of Contents**
 - Outputs a single **`PDF`** file you can easily share and automate
 
@@ -158,3 +161,35 @@ ${toc}
 
 ...
 ```
+
+
+<br />
+
+---
+
+## Tips & Tricks
+
+### Line breaks
+
+Line breaks can really help make the final document much cleaner.  
+Luckily, **Markdown** supports HTML, so I recommend adding this at the top of each separate component (i.e. each separate markdown file):  
+
+```markdown
+<div style="page-break-after:always"></div>
+
+## My component
+...
+```
+
+
+### GitHub Integration
+
+At the moment, GitHub doesn't support rendering of **PlantUML** diagrams within a **Markdown** file.  
+
+As an alternative, there's this awesome Chrome / Firefox extension you can use:  
+
+- [PlantUML Visualizer](https://github.com/WillBooster/plantuml-visualizer)
+  _Thanks [@willbooster](https://github.com/WillBooster) for this really great extension!_
+
+
+> _To see this in action after you installed the extension, just browser through the Markdown files in the examples folder here_
