@@ -1,6 +1,6 @@
 {
   "name": "makeitpdf",
-  "version": "1.1.14",
+  "version": "1.1.15",
   "description": "",
   "bin": {
     "makeitpdf": "./index.js"
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["markdown", "plantuml", "documentation", "pdf", "diagram", "flowchart", "docs"],
   "author": "Uri Chandler",
   "license": "ISC",
   "dependencies": {
@@ -24,5 +24,9 @@
     "puppeteer": "^2.1.0",
     "toolog": "0.0.5",
     "yargs": "^15.1.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/uri-chandler/makeitpdf"
   }
 }
