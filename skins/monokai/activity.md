@@ -1,46 +1,36 @@
 ## Activity Diagram Example
 
-Foo
+
 ```plantuml
     @startuml
-    !include https://raw.githubusercontent.com/uri-chandler/makeitpdf/master/skins/monokai/monokai.skin.iuml
+    !define BACKGROUND_COLOR   #faf9f7
+    !define BORDER_COLOR       #cf854b
+    !define FONT_COLOR         #14110c
 
-    :start;
-    fork
-        :foo;
-        :foo2;
-    fork again
-        :foo3;
-        detach
-    endfork
-    
-    if (foo4) then
-        :foo5;
-        detach
-    endif
-    
-    :foo6;
-    detach
+    !define ARROW_COLOR        #5c2f1c
+    !define BAR_COLOR          #c0c5c1
+
+    skinparam Activity {
+        BackgroundColor        BACKGROUND_COLOR
+        BorderColor            BORDER_COLOR
+        FontColor              FONT_COLOR
+
+        DiamondBackgroundColor BACKGROUND_COLOR
+        DiamondBorderColor     BORDER_COLOR
+        DiamondFontColor       FONT_COLOR
+
+        ArrowColor             ARROW_COLOR
+        BarColor               BAR_COLOR
+        'FontName Size Style
+        'BorderThickness
+        'DiamondFontName | Size | Style
+        'EndColor
+        'StartColor
+    }
     
     :ClickServlet.handleRequest();
     :new page;
-    if (Page.onSecurityCheck) then (true)
-    :Page.onInit();
-    if (isForward?) then (no)
-        :Process controls;
-        if (continue processing?) then (no)
-        stop
-        endif
-        
-        if (isPost?) then (yes)
-        :Page.onPost();
-        else (no)
-        :Page.onGet();
-        endif
-        :Page.onRender();
-    endif
-    else (false)
-    endif
+
 
     if (do redirect?) then (yes)
     :redirect process;
@@ -50,7 +40,11 @@ Foo
     else (no)
         :Render page template;
     endif
+    fork
+    :foo;
+    endfork
     endif
+
     stop
 
     @enduml
