@@ -25,6 +25,7 @@
         BorderColor            BORDER_COLOR
         BackgroundColor        BACKGROUND_COLOR_3
         FontColor              FONT_COLOR_2
+        FontSize               11
     }
 
     skinparam Note {

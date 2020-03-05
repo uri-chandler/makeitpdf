@@ -13,6 +13,10 @@
     :Day.start();
     :Drink coffee;
 
+    note right
+        Note:
+        We prefer double espresso!
+    endnote
 
     if (is awake yet?) then (yes)
     :work;
@@ -30,8 +34,8 @@
     stop
 
     legend right
-        This skin is
-        just legendary
+        This legend is
+        legendary
     endlegend
 
     Footer \n\n\t Typical day for John, a software engineer
