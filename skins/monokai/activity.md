@@ -3,7 +3,8 @@
 Foo
 ```plantuml
     @startuml
-
+    !include https://raw.githubusercontent.com/uri-chandler/makeitpdf/master/skins/monokai/monokai.skin.iuml
+    
     :start;
     fork
         :foo1;

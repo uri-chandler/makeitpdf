@@ -1,6 +1,7 @@
+@startuml
 !define BACKGROUND_COLOR #303030
 !define FONT_COLOR       #F0F0F0
-!define BORDER_COLOR     #F06449
+!define BORDER_COLOR     Blue
 !define ARROW_COLOR      #F06449
 
 skinparam Activity {
@@ -18,3 +19,4 @@ skinparam Activity {
     'EndColor
     'StartColor
 }
+@enduml
