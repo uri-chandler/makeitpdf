@@ -3,26 +3,6 @@
 Foo
 ```plantuml
     @startuml
-    !define BACKGROUND_COLOR #303030
-    !define FONT_COLOR       #F0F0F0
-    !define BORDER_COLOR     #F06449
-    !define ARROW_COLOR      #F06449
-
-    skinparam Activity {
-        ArrowColor             ARROW_COLOR
-        FontColor              FONT_COLOR
-        DiamondFontColor       FONT_COLOR
-        BackgroundColor        BACKGROUND_COLOR
-        DiamondBackgroundColor BACKGROUND_COLOR
-        BorderColor            BORDER_COLOR
-        DiamondBorderColor     BORDER_COLOR
-        'FontName Size Style
-        'BarColor Red
-        'BorderThickness
-        'DiamondFontName | Size | Style
-        'EndColor
-        'StartColor
-    }
 
     :start;
     fork
