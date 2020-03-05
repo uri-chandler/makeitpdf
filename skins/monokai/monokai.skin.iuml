@@ -1,0 +1,13 @@
+skinparam Activity {
+    BackgroundColor red
+    'BarColor
+    'BorderColor
+    'BorderThickness
+    'DiamondBackgroundColor
+    'DiamondBorderColor
+    'DiamondFontColor
+    'DiamondFontName | Size | Style
+    'EndColor
+    'FontColor Name Size Style
+    'StartColor
+}
