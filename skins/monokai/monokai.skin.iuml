@@ -1,22 +1,30 @@
-@startuml
-!define BACKGROUND_COLOR #303030
-!define FONT_COLOR       #F0F0F0
-!define BORDER_COLOR     Blue
-!define ARROW_COLOR      #F06449
+@startuml MonokaiSkin
+    !define BACKGROUND_COLOR   #faf9f7
+    !define BACKGROUND_COLOR_2 #ffe8ae
 
-skinparam Activity {
-    ArrowColor             ARROW_COLOR
-    FontColor              FONT_COLOR
-    DiamondFontColor       FONT_COLOR
-    BackgroundColor        BACKGROUND_COLOR
-    DiamondBackgroundColor BACKGROUND_COLOR
-    BorderColor            BORDER_COLOR
-    DiamondBorderColor     BORDER_COLOR
-    'FontName Size Style
-    'BarColor Red
-    'BorderThickness
-    'DiamondFontName | Size | Style
-    'EndColor
-    'StartColor
-}
+    !define BORDER_COLOR       #cf854b
+    !define BORDER_COLOR_2     #df955b
+
+    !define ARROW_COLOR        #5c2f1c
+    !define FONT_COLOR         #14110c
+    !define BAR_COLOR          #cf854b
+
+    !define START_COLOR        #cf854b
+    !define END_COLOR          #5c2f1c
+
+    skinparam Activity {
+        BackgroundColor        BACKGROUND_COLOR
+        BorderColor            BORDER_COLOR
+        FontColor              FONT_COLOR
+
+        DiamondBackgroundColor BACKGROUND_COLOR_2
+        DiamondBorderColor     BORDER_COLOR_2
+        DiamondFontColor       FONT_COLOR
+
+        ArrowColor             ARROW_COLOR
+        BarColor               BAR_COLOR
+
+        StartColor             START_COLOR
+        EndColor               END_COLOR
+    }
 @enduml
