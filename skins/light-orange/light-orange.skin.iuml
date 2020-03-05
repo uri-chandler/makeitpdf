@@ -1,4 +1,4 @@
-@startuml MonokaiSkin
+@startuml Light-Orange Skin
     !define BACKGROUND_COLOR   #faf9f7
     !define BACKGROUND_COLOR_2 #ffe8ae
 
