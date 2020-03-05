@@ -3,7 +3,7 @@
 
 ```plantuml
     @startuml
-    !include https://raw.githubusercontent.com/uri-chandler/makeitpdf/master/skins/monokai/monokai.skin.iuml
+    !include https://raw.githubusercontent.com/uri-chandler/makeitpdf/master/skins/light-orange/light-orange.skin.iuml
     
     start
     :ClickServlet.handleRequest();
