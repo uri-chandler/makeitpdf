@@ -63,8 +63,8 @@
         FontSize               FONT_SIZE_SMALL
     }
 
-    skinparam EntityStereotype {
-        FontColor BORDER_COLOR
+    skinparam ClassStereotype {
+        FontColor TITLE_COLOR
     }
 
     skinparam StereotypeA {
