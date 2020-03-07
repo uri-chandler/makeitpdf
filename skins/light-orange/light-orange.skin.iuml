@@ -62,4 +62,29 @@
     skinparam CircledCharacter {
         FontSize               FONT_SIZE_SMALL
     }
+
+    skinparam EntityStereotype {
+        FontColor BORDER_COLOR
+    }
+
+    skinparam StereotypeA {
+        BackgroundColor BACKGROUND_COLOR_3
+    }
+
+    skinparam StereotypeC {
+        BackgroundColor BACKGROUND_COLOR_3
+    }
+
+    skinparam StereotypeE {
+        BackgroundColor BACKGROUND_COLOR_3
+    }
+
+    skinparam StereotypeI {
+        BackgroundColor BACKGROUND_COLOR_3
+    }
+
+    skinparam StereotypeN {
+        BackgroundColor BACKGROUND_COLOR_3
+    }
+
 @enduml

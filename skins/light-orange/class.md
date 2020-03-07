@@ -5,24 +5,33 @@
     @startuml
     !include https://raw.githubusercontent.com/uri-chandler/makeitpdf/master/skins/light-orange/light-orange.skin.iuml
 
+    Header \n Class is in session \n
+    Title <u>Classes in our project</u> \n
 
-    Header \n Class is in session
-    Title <u>Classes in our project<u> \n
-
-    class Car {
-        + model
-        + year
-        - makerFactory 
-        # serialNumber
-
+    interface Driveable {
+        - isEngineRunning
         + startEngine()
         + stopEngine()
         + steerLeft()
         + steerRight()
     }
 
+    class Car {
+        + model
+        + year
+        - makerFactory 
+        # serialNumber
+    }
 
-    
+    class Owner {
+        + car <<Car>>
+        - foo
+    }
+
+
+
+    Car -up-|> Driveable
+
     
     legend right
         - Interfaces are binding

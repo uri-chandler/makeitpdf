@@ -7,7 +7,7 @@
 
 
     Header \n A day in a life
-    Title <u>Important Activity<u> \n
+    Title <u>Important Activity</u> \n
 
     start
     :Day.start();
