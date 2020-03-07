@@ -19,7 +19,9 @@
     !define FONT_SIZE_SMALL    11
 
 
-    skinparam TitleFontColor   TITLE_COLOR
+    skinparam Title {
+        FontColor              TITLE_COLOR
+    }
 
     skinparam Legend {
         BorderColor            BORDER_COLOR
@@ -55,5 +57,9 @@
         BackgroundColor         BACKGROUND_COLOR
         FontColor               FONT_COLOR_2
         HeaderBackgroundColor   BACKGROUND_COLOR_2
+    }
+
+    skinparam CircledCharacter {
+        FontSize               FONT_SIZE_SMALL
     }
 @enduml
