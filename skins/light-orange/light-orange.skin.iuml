@@ -16,16 +16,16 @@
     !define END_COLOR          #5c2f1c
 
     !define TITLE_COLOR        #be743a
+    !define FONT_SIZE_SMALL    11
 
 
     skinparam TitleFontColor   TITLE_COLOR
-
 
     skinparam Legend {
         BorderColor            BORDER_COLOR
         BackgroundColor        BACKGROUND_COLOR_3
         FontColor              FONT_COLOR_2
-        FontSize               11
+        FontSize               FONT_SIZE_SMALL
     }
 
     skinparam Note {
@@ -33,7 +33,6 @@
         BackgroundColor        BACKGROUND_COLOR_3
         FontColor              FONT_COLOR_2
     }
-
 
     skinparam Activity {
         BackgroundColor        BACKGROUND_COLOR
@@ -49,5 +48,12 @@
 
         StartColor             START_COLOR
         EndColor               END_COLOR
+    }
+
+    skinparam Class {
+        BorderColor             BORDER_COLOR
+        BackgroundColor         BACKGROUND_COLOR
+        FontColor               FONT_COLOR_2
+        HeaderBackgroundColor   BACKGROUND_COLOR_2
     }
 @enduml
