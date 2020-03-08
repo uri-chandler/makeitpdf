@@ -22,4 +22,4 @@
 
 <br />
 
-![Simple Diagram](simple.svg)
+![Simple Diagram](images/simple.svg)

@@ -23,4 +23,4 @@
 
 <br />
 
-![Label On Arrow](label-on-arrow.svg)
+![Label On Arrow](images/label-on-arrow.svg)

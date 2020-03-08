@@ -51,4 +51,4 @@
 
 <br />
 
-![Custom Diagram](custom.svg)
+![Custom Diagram](images/custom.svg)
