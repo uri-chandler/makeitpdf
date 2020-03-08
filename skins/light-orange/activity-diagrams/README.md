@@ -6,3 +6,4 @@
 :[Changing Arrow Directions](changing-arrow-directions.md)  
 :[Branches](branches.md)  
 :[Branches (Advanced)](branches-advanced.md)  
+:[Synchronization](synchronization.md)  
