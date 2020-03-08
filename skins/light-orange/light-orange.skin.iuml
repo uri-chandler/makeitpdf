@@ -114,4 +114,15 @@
         BackgroundColor BACKGROUND_COLOR_3
     }
 
+    skinparam interface {
+        BorderColor     BORDER_COLOR_2
+        BackgroundColor BACKGROUND_COLOR_2
+    }
+
+    skinparam component {
+        BorderColor     BORDER_COLOR
+        BackgroundColor BACKGROUND_COLOR
+        FontColor       FONT_COLOR
+    }
+
 @enduml
