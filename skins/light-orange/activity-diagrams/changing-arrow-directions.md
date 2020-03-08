@@ -24,16 +24,4 @@
 
 <br />
 
-```plantuml
-    @startuml
-    !include https://raw.githubusercontent.com/uri-chandler/makeitpdf/master/skins/light-orange/light-orange.skin.iuml
-
-    Title \n <u>Changing Arrow Directions</u> \n
-
-    (*) -up-> "First Activity"
-    -right-> "Second Activity"
-    --> "Third Activity"
-    -left-> (*)
-
-    @enduml
-```
+![Changing Arrow Directions](images/changing-arrow-directions.svg)
