@@ -16,8 +16,39 @@
     !define END_COLOR          #5c2f1c
 
     !define TITLE_COLOR        #be743a
+    !define STEREOTYPE_COLOR   #be743a
     !define FONT_SIZE_SMALL    11
 
+    skinparam DesignedDomainStereotypeFontColor STEREOTYPE_COLOR
+    skinparam RequirementStereotypeFontColor    STEREOTYPE_COLOR
+    skinparam ParticipantStereotypeFontColor    STEREOTYPE_COLOR
+    skinparam RectangleStereotypeFontColor      STEREOTYPE_COLOR
+    skinparam ArchimateStereotypeFontColor      STEREOTYPE_COLOR
+    skinparam ComponentStereotypeFontColor      STEREOTYPE_COLOR
+    skinparam InterfaceStereotypeFontColor      STEREOTYPE_COLOR
+    skinparam SequenceStereotypeFontColor       STEREOTYPE_COLOR
+    skinparam ArtifactStereotypeFontColor       STEREOTYPE_COLOR
+    skinparam BoundaryStereotypeFontColor       STEREOTYPE_COLOR
+    skinparam DatabaseStereotypeFontColor       STEREOTYPE_COLOR
+    skinparam UsercaseStereotypeFontColor       STEREOTYPE_COLOR
+    skinparam MachineStereotypeFontColor        STEREOTYPE_COLOR
+    skinparam ControlStereotypeFontColor        STEREOTYPE_COLOR
+    skinparam StorageStereotypeFontColor        STEREOTYPE_COLOR
+    skinparam PackageStereotypeFontColor        STEREOTYPE_COLOR
+    skinparam ObjectStereotypeFontColor         STEREOTYPE_COLOR
+    skinparam DomainStereotypeFontColor         STEREOTYPE_COLOR
+    skinparam EntityStereotypeFontColor         STEREOTYPE_COLOR
+    skinparam FolderStereotypeFontColor         STEREOTYPE_COLOR
+    skinparam QueueStereotypeFontColor          STEREOTYPE_COLOR
+    skinparam StackStereotypeFontColor          STEREOTYPE_COLOR
+    skinparam FrameStereotypeFontColor          STEREOTYPE_COLOR
+    skinparam ActorStereotypeFontColor          STEREOTYPE_COLOR
+    skinparam AgentStereotypeFontColor          STEREOTYPE_COLOR
+    skinparam ClassStereotypeFontColor          STEREOTYPE_COLOR
+    skinparam CloudStereotypeFontColor          STEREOTYPE_COLOR
+    skinparam FileStereotypeFontColor           STEREOTYPE_COLOR
+    skinparam CardStereotypeFontColor           STEREOTYPE_COLOR
+    skinparam NodeStereotypeFontColor           STEREOTYPE_COLOR
 
     skinparam Title {
         FontColor              TITLE_COLOR
@@ -61,10 +92,6 @@
 
     skinparam CircledCharacter {
         FontSize               FONT_SIZE_SMALL
-    }
-
-    skinparam ClassStereotype {
-        FontColor TITLE_COLOR
     }
 
     skinparam StereotypeA {

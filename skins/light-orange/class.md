@@ -25,12 +25,18 @@
 
     class Owner {
         + car <<Car>>
-        - foo
+        + name
+    }
+
+    class Driver {
+        + driversLicense
+        + drive()
     }
 
 
-
-    Car -up-|> Driveable
+    Driver -right|> Owner
+    Owner  -up-o    Car
+    Car    -up|>    Driveable
 
     
     legend right
