@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="257px" preserveAspectRatio="none" style="width:442px;height:257px;" version="1.1" viewBox="0 0 442 257" width="442px" zoomAndPan="magnify"><defs><filter height="300%" id="f10wv6fglfxr02" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#BE743A" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="227.5" y="16.708"/><text fill="#BE743A" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="158" y="37.6611"/><text fill="#BE743A" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="133" x="158" y="37.6611">Notes Example</text><text fill="#BE743A" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="297" y="37.6611"/><text fill="#BE743A" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="227.5" y="58.6143"/><ellipse cx="149.5" cy="80.8594" fill="#CF854B" filter="url(#f10wv6fglfxr02)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#FAF9F7" filter="url(#f10wv6fglfxr02)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #CF854B; stroke-width: 1.5;" width="102" x="98.5" y="130.8594"/><text fill="#14110C" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="108.5" y="151.998">Some Activity</text><path d="M220.5,135.3594 L220.5,143.8594 L200.7188,147.8594 L220.5,151.8594 L220.5,160.4922 A0,0 0 0 0 220.5,160.4922 L430.5,160.4922 A0,0 0 0 0 430.5,160.4922 L430.5,145.3594 L420.5,135.3594 L220.5,135.3594 A0,0 0 0 0 220.5,135.3594 " fill="#FFF9DF" filter="url(#f10wv6fglfxr02)" style="stroke: #CF854B; stroke-width: 1.0;"/><path d="M420.5,135.3594 L420.5,145.3594 L430.5,145.3594 L420.5,135.3594 " fill="#FFF9DF" style="stroke: #CF854B; stroke-width: 1.0;"/><text fill="#36332E" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="189" x="226.5" y="152.4263">This activity has to be defined</text><ellipse cx="149.5" cy="224.8594" fill="none" filter="url(#f10wv6fglfxr02)" rx="10" ry="10" style="stroke: #5C2F1C; stroke-width: 1.0;"/><ellipse cx="150" cy="225.3594" fill="#5C2F1C" rx="6" ry="6" style="stroke: none; stroke-width: 1.0;"/><path d="M6,204.8594 L6,245.125 A0,0 0 0 0 6,245.125 L119,245.125 A0,0 0 0 0 119,245.125 L119,228.8594 L139.1029,224.8594 L119,220.8594 L119,214.8594 L109,204.8594 L6,204.8594 A0,0 0 0 0 6,204.8594 " fill="#FFF9DF" filter="url(#f10wv6fglfxr02)" style="stroke: #CF854B; stroke-width: 1.0;"/><path d="M109,204.8594 L109,214.8594 L119,214.8594 L109,204.8594 " fill="#FFF9DF" style="stroke: #CF854B; stroke-width: 1.0;"/><text fill="#36332E" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="92" x="12" y="221.9263">This note is on</text><text fill="#36332E" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="79" x="12" y="237.0591">several lines</text><!--link start to Some Activity--><path d="M149.5,91.0353 C149.5,100.178 149.5,113.922 149.5,125.603 " fill="none" id="start-&gt;Some Activity" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="149.5,130.8008,153.5,121.8008,149.5,125.8008,145.5,121.8008,149.5,130.8008" style="stroke: #5C2F1C; stroke-width: 1.0;"/><!--link Some Activity to end--><path d="M149.5,164.9482 C149.5,178.2844 149.5,196.6464 149.5,209.5157 " fill="none" id="Some Activity-&gt;end" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="149.5,214.6642,153.5,205.6642,149.5,209.6642,145.5,205.6642,149.5,214.6642" style="stroke: #5C2F1C; stroke-width: 1.0;"/><!--
+@startuml
+
+
+
+
+
+
+    skinparam DesignedDomainStereotypeFontColor #be743a
+    skinparam RequirementStereotypeFontColor    #be743a
+    skinparam ParticipantStereotypeFontColor    #be743a
+    skinparam RectangleStereotypeFontColor      #be743a
+    skinparam ArchimateStereotypeFontColor      #be743a
+    skinparam ComponentStereotypeFontColor      #be743a
+    skinparam InterfaceStereotypeFontColor      #be743a
+    skinparam SequenceStereotypeFontColor       #be743a
+    skinparam ArtifactStereotypeFontColor       #be743a
+    skinparam BoundaryStereotypeFontColor       #be743a
+    skinparam DatabaseStereotypeFontColor       #be743a
+    skinparam UsercaseStereotypeFontColor       #be743a
+    skinparam MachineStereotypeFontColor        #be743a
+    skinparam ControlStereotypeFontColor        #be743a
+    skinparam StorageStereotypeFontColor        #be743a
+    skinparam PackageStereotypeFontColor        #be743a
+    skinparam ObjectStereotypeFontColor         #be743a
+    skinparam DomainStereotypeFontColor         #be743a
+    skinparam EntityStereotypeFontColor         #be743a
+    skinparam FolderStereotypeFontColor         #be743a
+    skinparam QueueStereotypeFontColor          #be743a
+    skinparam StackStereotypeFontColor          #be743a
+    skinparam FrameStereotypeFontColor          #be743a
+    skinparam ActorStereotypeFontColor          #be743a
+    skinparam AgentStereotypeFontColor          #be743a
+    skinparam ClassStereotypeFontColor          #be743a
+    skinparam CloudStereotypeFontColor          #be743a
+    skinparam FileStereotypeFontColor           #be743a
+    skinparam CardStereotypeFontColor           #be743a
+    skinparam NodeStereotypeFontColor           #be743a
+
+    skinparam Title {
+        FontColor              #be743a
+    }
+
+    skinparam Legend {
+        BorderColor            #cf854b
+        BackgroundColor        #fff9df
+        FontColor              #36332e
+        FontSize               11
+    }
+
+    skinparam Note {
+        BorderColor            #cf854b
+        BackgroundColor        #fff9df
+        FontColor              #36332e
+    }
+
+    skinparam Activity {
+        BackgroundColor        #faf9f7
+        BorderColor            #cf854b
+        FontColor              #14110c
+
+        DiamondBackgroundColor #ffe8ae
+        DiamondBorderColor     #df955b
+        DiamondFontColor       #14110c
+
+        ArrowColor             #5c2f1c
+        BarColor               #cf854b
+
+        StartColor             #cf854b
+        EndColor               #5c2f1c
+    }
+
+    skinparam Class {
+        BorderColor             #cf854b
+        BackgroundColor         #faf9f7
+        FontColor               #36332e
+        HeaderBackgroundColor   #ffe8ae
+    }
+
+    skinparam CircledCharacter {
+        FontSize               11
+    }
+
+    skinparam StereotypeA {
+        BackgroundColor #fff9df
+    }
+
+    skinparam StereotypeC {
+        BackgroundColor #fff9df
+    }
+
+    skinparam StereotypeE {
+        BackgroundColor #fff9df
+    }
+
+    skinparam StereotypeI {
+        BackgroundColor #fff9df
+    }
+
+    skinparam StereotypeN {
+        BackgroundColor #fff9df
+    }
+
+    skinparam interface {
+        BorderColor     #df955b
+        BackgroundColor #ffe8ae
+    }
+
+    skinparam component {
+        BorderColor     #cf854b
+        BackgroundColor #faf9f7
+        FontColor       #14110c
+    }
+
+
+Title \n <u>Notes Example</u> \n
+
+(*) - -> "Some Activity"
+note right: This activity has to be defined
+"Some Activity" - -> (*)
+note left
+ This note is on
+ several lines
+end note
+@enduml
+
+PlantUML version 1.2019.09(Mon Aug 26 16:19:51 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_162-heroku-b12
+Operating System: Linux
+OS Version: 4.4.0-1062-aws
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
