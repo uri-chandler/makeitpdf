@@ -5,23 +5,23 @@
 <p>
 
 ```plantuml
-    @startuml
-    !include https://raw.githubusercontent.com/uri-chandler/makeitpdf/master/skins/light-orange/light-orange.skin.iuml
+@startuml
+!include https://raw.githubusercontent.com/uri-chandler/makeitpdf/master/skins/light-orange/light-orange.skin.iuml
 
-    Title \n <u>Branches</u> \n
+Title \n <u>Branches</u> \n
 
-    (*) --> "Initialization"
+(*) --> "Initialization"
 
-    if "Some Test" then
-        -->[true] "Some Activity"
-        --> "Another activity"
-        -right-> (*)
-    else
-        ->[false] "Something else"
-        -->[Ending process] (*)
-    endif
+if "Some Test" then
+    -->[true] "Some Activity"
+    --> "Another activity"
+    -right-> (*)
+else
+    ->[false] "Something else"
+    -->[Ending process] (*)
+endif
 
-    @enduml
+@enduml
 ```
 
 </p>
