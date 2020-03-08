@@ -7,3 +7,6 @@
 :[Branches](branches.md)  
 :[Branches (Advanced)](branches-advanced.md)  
 :[Synchronization](synchronization.md)  
+:[Long Activity Descrption](long-activity-description.md)  
+:[Notes](notes.md)  
+:[Partitions](partitions.md)  
