@@ -4,7 +4,7 @@
 <summary>Click to see full PlantUML Code</summary>
 <p>
 
-```plantumlcode
+```plantuml
     @startuml
     !include https://raw.githubusercontent.com/uri-chandler/makeitpdf/master/skins/light-orange/light-orange.skin.iuml
 
