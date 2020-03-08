@@ -1,4 +1,4 @@
 #### Activity Diagrams Examples
 
 :[Custom Diagram](custom.md)  
-:[Simple Example](simple.md)  
+:[Simple Diageam](simple.md)  
