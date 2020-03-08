@@ -1,4 +1,3 @@
-# Light-Orange PlantUML Skin
+### Light-Orange PlantUML Skin
 
-:[Common](common.md)  
-:[Activity Diagram](activity.md)  
+:[Activity Diagrams](./activity-diagrams/README.md)  
