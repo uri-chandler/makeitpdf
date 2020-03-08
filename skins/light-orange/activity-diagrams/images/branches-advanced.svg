@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="489px" preserveAspectRatio="none" style="width:325px;height:489px;" version="1.1" viewBox="0 0 325 489" width="325px" zoomAndPan="magnify"><defs><filter height="300%" id="f1k95bxaivyqun" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#BE743A" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="169" y="16.708"/><text fill="#BE743A" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="73" y="37.6611"/><text fill="#BE743A" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="186" x="73" y="37.6611">Branches (Advanced)</text><text fill="#BE743A" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="265" y="37.6611"/><text fill="#BE743A" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="169" y="58.6143"/><ellipse cx="126.5" cy="80.8594" fill="#CF854B" filter="url(#f1k95bxaivyqun)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><polygon fill="#FFE8AE" filter="url(#f1k95bxaivyqun)" points="126.5,136.8594,138.5,148.8594,126.5,160.8594,114.5,148.8594,126.5,136.8594" style="stroke: #DF955B; stroke-width: 1.5;"/><rect fill="#FAF9F7" filter="url(#f1k95bxaivyqun)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #CF854B; stroke-width: 1.5;" width="75" x="89" y="219.8594"/><text fill="#14110C" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="99" y="240.998">activity 1</text><polygon fill="#FFE8AE" filter="url(#f1k95bxaivyqun)" points="126.5,299.8594,138.5,311.8594,126.5,323.8594,114.5,311.8594,126.5,299.8594" style="stroke: #DF955B; stroke-width: 1.5;"/><rect fill="#FAF9F7" filter="url(#f1k95bxaivyqun)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #CF854B; stroke-width: 1.5;" width="75" x="162" y="294.8594"/><text fill="#14110C" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="172" y="315.998">activity 3</text><polygon fill="#FFE8AE" filter="url(#f1k95bxaivyqun)" points="113.5,374.8594,125.5,386.8594,113.5,398.8594,101.5,386.8594,113.5,374.8594" style="stroke: #DF955B; stroke-width: 1.5;"/><rect fill="#FAF9F7" filter="url(#f1k95bxaivyqun)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #CF854B; stroke-width: 1.5;" width="75" x="6" y="369.8594"/><text fill="#14110C" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="16" y="390.998">activity 5</text><rect fill="#FAF9F7" filter="url(#f1k95bxaivyqun)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #CF854B; stroke-width: 1.5;" width="75" x="74" y="444.8594"/><text fill="#14110C" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="84" y="465.998">activity 6</text><rect fill="#FAF9F7" filter="url(#f1k95bxaivyqun)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #CF854B; stroke-width: 1.5;" width="75" x="188" y="131.8594"/><text fill="#14110C" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="198" y="152.998">activity 2</text><polygon fill="#FFE8AE" filter="url(#f1k95bxaivyqun)" points="206.5,374.8594,218.5,386.8594,206.5,398.8594,194.5,386.8594,206.5,374.8594" style="stroke: #DF955B; stroke-width: 1.5;"/><rect fill="#FAF9F7" filter="url(#f1k95bxaivyqun)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #CF854B; stroke-width: 1.5;" width="75" x="169" y="444.8594"/><text fill="#14110C" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="179" y="465.998">activity 7</text><rect fill="#FAF9F7" filter="url(#f1k95bxaivyqun)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #CF854B; stroke-width: 1.5;" width="75" x="239" y="369.8594"/><text fill="#14110C" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="249" y="390.998">activity 8</text><!--link start to #140--><path d="M126.5,90.893 C126.5,101.496 126.5,118.4258 126.5,131.2579 " fill="none" id="start-&gt;#140" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="126.5,136.4761,130.5,127.4761,126.5,131.4761,122.5,127.4761,126.5,136.4761" style="stroke: #5C2F1C; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="62" x="50.1625" y="126.3703">Some Test</text><!--link #140 to activity 1--><path d="M126.5,161.0954 C126.5,174.8767 126.5,197.5599 126.5,214.5211 " fill="none" id="#140-&gt;activity 1" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="126.5,219.585,130.5,210.585,126.5,214.585,122.5,210.585,126.5,219.585" style="stroke: #5C2F1C; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="23" x="127.5" y="197.0698">true</text><!--link activity 1 to #145--><path d="M126.5,253.8781 C126.5,266.0213 126.5,282.2977 126.5,294.5141 " fill="none" id="activity 1-&gt;#145" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="126.5,299.812,130.5,290.812,126.5,294.812,122.5,290.812,126.5,299.812" style="stroke: #5C2F1C; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="0" x="125.525" y="289.4205"/><!--link #145 to a3--><path d="M138.7617,311.8594 C144.5746,311.8594 150.3874,311.8594 156.2002,311.8594 " fill="none" id="#145-&gt;a3" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="161.5386,311.8594,152.5386,307.8594,156.5386,311.8594,152.5386,315.8594,161.5386,311.8594" style="stroke: #5C2F1C; stroke-width: 1.0;"/><!--link #145 to #150--><path d="M124.6924,322.2878 C122.4804,335.0496 118.7159,356.7679 116.1699,371.4559 " fill="none" id="#145-&gt;#150" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="115.2922,376.5195,120.7707,368.3349,116.1462,371.5929,112.8882,366.9685,115.2922,376.5195" style="stroke: #5C2F1C; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="131.5214" y="364.2992">Other test</text><!--reverse link activity 5 to #150--><path d="M86.2759,386.8594 C91.3174,386.8594 96.3589,386.8594 101.4004,386.8594 " fill="none" id="activity 5&lt;-#150" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="81.2344,386.8594,90.2344,390.8594,86.2344,386.8594,90.2344,382.8594,81.2344,386.8594" style="stroke: #5C2F1C; stroke-width: 1.0;"/><!--link #150 to activity 6--><path d="M113.1875,398.5781 C112.8965,409.4894 112.4551,426.0447 112.0966,439.4855 " fill="none" id="#150-&gt;activity 6" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="111.9588,444.6529,116.1973,435.7627,112.0921,439.6547,108.2001,435.5494,111.9588,444.6529" style="stroke: #5C2F1C; stroke-width: 1.0;"/><!--link #140 to activity 2--><path d="M138.6393,148.8594 C149.5871,148.8594 166.3638,148.8594 182.2642,148.8594 " fill="none" id="#140-&gt;activity 2" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="187.6132,148.8594,178.6132,144.8594,182.6132,148.8594,178.6132,152.8594,187.6132,148.8594" style="stroke: #5C2F1C; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="28" x="149.25" y="143.0698">false</text><!--link a3 to #160--><path d="M201.0884,328.8781 C202.2498,341.3211 203.8162,358.104 204.9649,370.4115 " fill="none" id="a3-&gt;#160" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="205.4603,375.7197,208.6065,366.3869,204.9956,370.7413,200.6411,367.1304,205.4603,375.7197" style="stroke: #5C2F1C; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="47" x="139.7488" y="382.3179">last test</text><!--link #160 to activity 7--><path d="M206.5,398.9094 C206.5,409.876 206.5,426.3408 206.5,439.6812 " fill="none" id="#160-&gt;activity 7" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="206.5,444.8085,210.5,435.8085,206.5,439.8085,202.5,435.8085,206.5,444.8085" style="stroke: #5C2F1C; stroke-width: 1.0;"/><!--link #160 to activity 8--><path d="M218.5313,386.8594 C223.6262,386.8594 228.7211,386.8594 233.816,386.8594 " fill="none" id="#160-&gt;activity 8" style="stroke: #5C2F1C; stroke-width: 1.0;"/><polygon fill="#5C2F1C" points="238.9109,386.8594,229.9109,382.8594,233.9109,386.8594,229.9109,390.8594,238.9109,386.8594" style="stroke: #5C2F1C; stroke-width: 1.0;"/><!--
+@startuml
+
+
+
+
+
+
+    skinparam DesignedDomainStereotypeFontColor #be743a
+    skinparam RequirementStereotypeFontColor    #be743a
+    skinparam ParticipantStereotypeFontColor    #be743a
+    skinparam RectangleStereotypeFontColor      #be743a
+    skinparam ArchimateStereotypeFontColor      #be743a
+    skinparam ComponentStereotypeFontColor      #be743a
+    skinparam InterfaceStereotypeFontColor      #be743a
+    skinparam SequenceStereotypeFontColor       #be743a
+    skinparam ArtifactStereotypeFontColor       #be743a
+    skinparam BoundaryStereotypeFontColor       #be743a
+    skinparam DatabaseStereotypeFontColor       #be743a
+    skinparam UsercaseStereotypeFontColor       #be743a
+    skinparam MachineStereotypeFontColor        #be743a
+    skinparam ControlStereotypeFontColor        #be743a
+    skinparam StorageStereotypeFontColor        #be743a
+    skinparam PackageStereotypeFontColor        #be743a
+    skinparam ObjectStereotypeFontColor         #be743a
+    skinparam DomainStereotypeFontColor         #be743a
+    skinparam EntityStereotypeFontColor         #be743a
+    skinparam FolderStereotypeFontColor         #be743a
+    skinparam QueueStereotypeFontColor          #be743a
+    skinparam StackStereotypeFontColor          #be743a
+    skinparam FrameStereotypeFontColor          #be743a
+    skinparam ActorStereotypeFontColor          #be743a
+    skinparam AgentStereotypeFontColor          #be743a
+    skinparam ClassStereotypeFontColor          #be743a
+    skinparam CloudStereotypeFontColor          #be743a
+    skinparam FileStereotypeFontColor           #be743a
+    skinparam CardStereotypeFontColor           #be743a
+    skinparam NodeStereotypeFontColor           #be743a
+
+    skinparam Title {
+        FontColor              #be743a
+    }
+
+    skinparam Legend {
+        BorderColor            #cf854b
+        BackgroundColor        #fff9df
+        FontColor              #36332e
+        FontSize               11
+    }
+
+    skinparam Note {
+        BorderColor            #cf854b
+        BackgroundColor        #fff9df
+        FontColor              #36332e
+    }
+
+    skinparam Activity {
+        BackgroundColor        #faf9f7
+        BorderColor            #cf854b
+        FontColor              #14110c
+
+        DiamondBackgroundColor #ffe8ae
+        DiamondBorderColor     #df955b
+        DiamondFontColor       #14110c
+
+        ArrowColor             #5c2f1c
+        BarColor               #cf854b
+
+        StartColor             #cf854b
+        EndColor               #5c2f1c
+    }
+
+    skinparam Class {
+        BorderColor             #cf854b
+        BackgroundColor         #faf9f7
+        FontColor               #36332e
+        HeaderBackgroundColor   #ffe8ae
+    }
+
+    skinparam CircledCharacter {
+        FontSize               11
+    }
+
+    skinparam StereotypeA {
+        BackgroundColor #fff9df
+    }
+
+    skinparam StereotypeC {
+        BackgroundColor #fff9df
+    }
+
+    skinparam StereotypeE {
+        BackgroundColor #fff9df
+    }
+
+    skinparam StereotypeI {
+        BackgroundColor #fff9df
+    }
+
+    skinparam StereotypeN {
+        BackgroundColor #fff9df
+    }
+
+    skinparam interface {
+        BorderColor     #df955b
+        BackgroundColor #ffe8ae
+    }
+
+    skinparam component {
+        BorderColor     #cf854b
+        BackgroundColor #faf9f7
+        FontColor       #14110c
+    }
+
+
+Title \n <u>Branches (Advanced)</u> \n
+
+(*) - -> if "Some Test" then
+
+  - ->[true] "activity 1"
+  
+  if "" then
+	-> "activity 3" as a3
+  else
+	if "Other test" then
+	  -left-> "activity 5"
+	else
+	  - -> "activity 6"
+	endif
+  endif
+  
+else
+
+  ->[false] "activity 2"
+  
+endif
+
+a3 - -> if "last test" then
+  - -> "activity 7"
+else
+  -> "activity 8"
+endif
+@enduml
+
+PlantUML version 1.2019.09(Mon Aug 26 16:19:51 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_162-heroku-b12
+Operating System: Linux
+OS Version: 4.4.0-1062-aws
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
