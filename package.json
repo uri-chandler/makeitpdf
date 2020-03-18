@@ -1,6 +1,6 @@
 {
   "name": "makeitpdf",
-  "version": "1.1.17",
+  "version": "1.1.18",
   "description": "",
   "bin": {
     "makeitpdf": "./index.js"
@@ -9,24 +9,32 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["markdown", "plantuml", "documentation", "pdf", "diagram", "flowchart", "docs"],
+  "keywords": [
+    "markdown",
+    "plantuml",
+    "documentation",
+    "pdf",
+    "diagram",
+    "flowchart",
+    "docs"
+  ],
   "author": "Uri Chandler",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "highlight.js": "^9.18.0",
+    "highlight.js": "^9.18.1",
     "markdown-it": "^10.0.0",
     "markdown-it-checkbox": "^1.1.0",
     "markdown-it-named-headers": "0.0.4",
     "markdown-it-plantuml": "^1.4.1",
     "markdown-it-toc-done-right": "^4.1.0",
-    "mustache": "^4.0.0",
-    "puppeteer": "^2.1.0",
+    "mustache": "^4.0.1",
+    "puppeteer": "^2.1.1",
     "toolog": "0.0.5",
-    "yargs": "^15.1.0"
+    "yargs": "^15.3.1"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/uri-chandler/makeitpdf"
+    "type": "git",
+    "url": "https://github.com/uri-chandler/makeitpdf"
   }
 }
