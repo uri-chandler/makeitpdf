@@ -22,7 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "highlight.js": "^9.18.1",
+    "highlight.js": "^10.1.2",
     "markdown-it": "^10.0.0",
     "markdown-it-checkbox": "^1.1.0",
     "markdown-it-named-headers": "0.0.4",
