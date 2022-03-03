@@ -60,7 +60,7 @@ async function start() {
 async function saveAsPDF(content, sourcePath) {
     log.info('Saving as PDF');
 
-    const browser = await puppeteer.launch({headless: true});
+    const browser = await puppeteer.launch({headless: true,args: ['--no-sandbox']});
     const page    = await browser.newPage();
 
     await page.setViewport({width: 1600, height: 1200, deviceScaleFactor: 2});
