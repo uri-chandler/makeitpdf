@@ -56,7 +56,9 @@ async function start() {
     console.log();
     log.done('All Done!');
 }
-
+const browser = await puppeteer.launch({
+  args: ['--no-sandbox', '--disable-setuid-sandbox'],
+});
 async function saveAsPDF(content, sourcePath) {
     log.info('Saving as PDF');
 
